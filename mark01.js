@@ -5,7 +5,7 @@ console.log('Welcome to the Game ' + userName +'!');
 console.log('Answer the quiz quetions to How Much You Know krishna');
 score = 0;
 
-function quiz(que, ans){
+let quiz = (que, ans) => {
   var userAnswer = readlineSync.question(que);
   console.log('you choosed option: '+ userAnswer);
 
